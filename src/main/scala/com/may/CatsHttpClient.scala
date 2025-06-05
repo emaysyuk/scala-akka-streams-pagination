@@ -31,8 +31,8 @@ object CatsHttpClient {
 class CatsHttpClientException extends Exception
 
 class CatsHttpClientImpl(implicit system: ActorSystem[_], ec: ExecutionContext) extends CatsHttpClient {
-  val logger: Logger = LoggerFactory.getLogger(classOf[CatsHttpClientImpl])
-  val start: Option[String] = Some("https://catfact.ninja/breeds")
+  private val logger: Logger = LoggerFactory.getLogger(classOf[CatsHttpClientImpl])
+  private val start: Option[String] = Some("https://catfact.ninja/breeds")
 
   override def getAllBreads: Future[Seq[Cat]] = {
     Source
