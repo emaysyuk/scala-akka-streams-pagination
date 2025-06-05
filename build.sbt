@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.13.12"
 
 val versionPekko = "1.0.1"
 val versionPekkoHttp = "1.0.0"
-val versionPekkoHttpCirce = "0.0.0_1-ce0fee0f-SNAPSHOT"
+val versionPekkoHttpCirce = "3.2.0"
 val versionCirce = "0.14.3"
 val versionLogback = "1.4.7"
 
