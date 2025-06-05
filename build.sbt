@@ -10,7 +10,7 @@ val versionLogback = "1.4.7"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "akka-streams-pagination",
+    name := "scala-akka-streams-pagination",
     scalacOptions ++= Seq("-Ymacro-annotations"),
     libraryDependencies += "org.apache.pekko" %% "pekko-stream-typed" % versionPekko,
     libraryDependencies += "org.apache.pekko" %% "pekko-stream-testkit" % versionPekko,
