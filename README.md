@@ -9,3 +9,6 @@ sbt clean compile run
 
 # Swagger
 https://catfact.ninja
+
+# StackOverflow
+https://stackoverflow.com/questions/41206877/akka-streams-flow-to-handle-paginated-results-doesnt-complete/77711109#77711109
